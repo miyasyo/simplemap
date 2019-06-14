@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F17433022AF99770075674B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F17432F22AF99770075674B /* AppDelegate.swift */; };
+		4F17433222AF99770075674B /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F17433122AF99770075674B /* MapController.swift */; };
+		4F17433522AF99770075674B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F17433322AF99770075674B /* Main.storyboard */; };
+		4F17433722AF99790075674B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F17433622AF99790075674B /* Assets.xcassets */; };
+		4F17433A22AF99790075674B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F17433822AF99790075674B /* LaunchScreen.storyboard */; };
+		4F17434522AF99790075674B /* simpleHakodateMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F17434422AF99790075674B /* simpleHakodateMapTests.swift */; };
+		4F17435022AF997A0075674B /* simpleHakodateMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F17434F22AF997A0075674B /* simpleHakodateMapUITests.swift */; };
+		4F17435F22AF9FE40075674B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F17435E22AF9FE40075674B /* MapKit.framework */; };
+		4F17436122AF9FED0075674B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F17436022AF9FED0075674B /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F17434122AF99790075674B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F17432422AF99770075674B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F17432B22AF99770075674B;
+			remoteInfo = simpleHakodateMap;
+		};
+		4F17434C22AF99790075674B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F17432422AF99770075674B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F17432B22AF99770075674B;
+			remoteInfo = simpleHakodateMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F17432C22AF99770075674B /* simpleHakodateMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleHakodateMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F17432F22AF99770075674B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F17433122AF99770075674B /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		4F17433422AF99770075674B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F17433622AF99790075674B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F17433922AF99790075674B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F17433B22AF99790075674B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F17434022AF99790075674B /* simpleHakodateMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleHakodateMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F17434422AF99790075674B /* simpleHakodateMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleHakodateMapTests.swift; sourceTree = "<group>"; };
+		4F17434622AF99790075674B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F17434B22AF99790075674B /* simpleHakodateMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleHakodateMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F17434F22AF997A0075674B /* simpleHakodateMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleHakodateMapUITests.swift; sourceTree = "<group>"; };
+		4F17435122AF997A0075674B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F17435E22AF9FE40075674B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4F17436022AF9FED0075674B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F17432922AF99770075674B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F17436122AF9FED0075674B /* CoreLocation.framework in Frameworks */,
+				4F17435F22AF9FE40075674B /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F17433D22AF99790075674B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F17434822AF99790075674B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F17432322AF99770075674B = {
+			isa = PBXGroup;
+			children = (
+				4F17432E22AF99770075674B /* simpleHakodateMap */,
+				4F17434322AF99790075674B /* simpleHakodateMapTests */,
+				4F17434E22AF997A0075674B /* simpleHakodateMapUITests */,
+				4F17432D22AF99770075674B /* Products */,
+				4F17435D22AF9FE40075674B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F17432D22AF99770075674B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F17432C22AF99770075674B /* simpleHakodateMap.app */,
+				4F17434022AF99790075674B /* simpleHakodateMapTests.xctest */,
+				4F17434B22AF99790075674B /* simpleHakodateMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F17432E22AF99770075674B /* simpleHakodateMap */ = {
+			isa = PBXGroup;
+			children = (
+				4F17432F22AF99770075674B /* AppDelegate.swift */,
+				4F17433122AF99770075674B /* MapController.swift */,
+				4F17433322AF99770075674B /* Main.storyboard */,
+				4F17433622AF99790075674B /* Assets.xcassets */,
+				4F17433822AF99790075674B /* LaunchScreen.storyboard */,
+				4F17433B22AF99790075674B /* Info.plist */,
+			);
+			path = simpleHakodateMap;
+			sourceTree = "<group>";
+		};
+		4F17434322AF99790075674B /* simpleHakodateMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F17434422AF99790075674B /* simpleHakodateMapTests.swift */,
+				4F17434622AF99790075674B /* Info.plist */,
+			);
+			path = simpleHakodateMapTests;
+			sourceTree = "<group>";
+		};
+		4F17434E22AF997A0075674B /* simpleHakodateMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F17434F22AF997A0075674B /* simpleHakodateMapUITests.swift */,
+				4F17435122AF997A0075674B /* Info.plist */,
+			);
+			path = simpleHakodateMapUITests;
+			sourceTree = "<group>";
+		};
+		4F17435D22AF9FE40075674B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F17436022AF9FED0075674B /* CoreLocation.framework */,
+				4F17435E22AF9FE40075674B /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F17432B22AF99770075674B /* simpleHakodateMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F17435422AF997A0075674B /* Build configuration list for PBXNativeTarget "simpleHakodateMap" */;
+			buildPhases = (
+				4F17432822AF99770075674B /* Sources */,
+				4F17432922AF99770075674B /* Frameworks */,
+				4F17432A22AF99770075674B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleHakodateMap;
+			productName = simpleHakodateMap;
+			productReference = 4F17432C22AF99770075674B /* simpleHakodateMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F17433F22AF99790075674B /* simpleHakodateMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F17435722AF997A0075674B /* Build configuration list for PBXNativeTarget "simpleHakodateMapTests" */;
+			buildPhases = (
+				4F17433C22AF99790075674B /* Sources */,
+				4F17433D22AF99790075674B /* Frameworks */,
+				4F17433E22AF99790075674B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F17434222AF99790075674B /* PBXTargetDependency */,
+			);
+			name = simpleHakodateMapTests;
+			productName = simpleHakodateMapTests;
+			productReference = 4F17434022AF99790075674B /* simpleHakodateMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F17434A22AF99790075674B /* simpleHakodateMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F17435A22AF997A0075674B /* Build configuration list for PBXNativeTarget "simpleHakodateMapUITests" */;
+			buildPhases = (
+				4F17434722AF99790075674B /* Sources */,
+				4F17434822AF99790075674B /* Frameworks */,
+				4F17434922AF99790075674B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F17434D22AF99790075674B /* PBXTargetDependency */,
+			);
+			name = simpleHakodateMapUITests;
+			productName = simpleHakodateMapUITests;
+			productReference = 4F17434B22AF99790075674B /* simpleHakodateMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F17432422AF99770075674B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "宮下翔伍";
+				TargetAttributes = {
+					4F17432B22AF99770075674B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4F17433F22AF99790075674B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4F17432B22AF99770075674B;
+					};
+					4F17434A22AF99790075674B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4F17432B22AF99770075674B;
+					};
+				};
+			};
+			buildConfigurationList = 4F17432722AF99770075674B /* Build configuration list for PBXProject "simpleHakodateMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F17432322AF99770075674B;
+			productRefGroup = 4F17432D22AF99770075674B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F17432B22AF99770075674B /* simpleHakodateMap */,
+				4F17433F22AF99790075674B /* simpleHakodateMapTests */,
+				4F17434A22AF99790075674B /* simpleHakodateMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F17432A22AF99770075674B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F17433A22AF99790075674B /* LaunchScreen.storyboard in Resources */,
+				4F17433722AF99790075674B /* Assets.xcassets in Resources */,
+				4F17433522AF99770075674B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F17433E22AF99790075674B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F17434922AF99790075674B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F17432822AF99770075674B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F17433222AF99770075674B /* MapController.swift in Sources */,
+				4F17433022AF99770075674B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F17433C22AF99790075674B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F17434522AF99790075674B /* simpleHakodateMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F17434722AF99790075674B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F17435022AF997A0075674B /* simpleHakodateMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F17434222AF99790075674B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F17432B22AF99770075674B /* simpleHakodateMap */;
+			targetProxy = 4F17434122AF99790075674B /* PBXContainerItemProxy */;
+		};
+		4F17434D22AF99790075674B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F17432B22AF99770075674B /* simpleHakodateMap */;
+			targetProxy = 4F17434C22AF99790075674B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F17433322AF99770075674B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F17433422AF99770075674B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F17433822AF99790075674B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F17433922AF99790075674B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F17435222AF997A0075674B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F17435322AF997A0075674B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F17435522AF997A0075674B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS6FK365RA;
+				INFOPLIST_FILE = simpleHakodateMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyasita.simpleHakodateMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F17435622AF997A0075674B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS6FK365RA;
+				INFOPLIST_FILE = simpleHakodateMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyasita.simpleHakodateMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F17435822AF997A0075674B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS6FK365RA;
+				INFOPLIST_FILE = simpleHakodateMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyasita.simpleHakodateMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleHakodateMap.app/simpleHakodateMap";
+			};
+			name = Debug;
+		};
+		4F17435922AF997A0075674B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS6FK365RA;
+				INFOPLIST_FILE = simpleHakodateMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyasita.simpleHakodateMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleHakodateMap.app/simpleHakodateMap";
+			};
+			name = Release;
+		};
+		4F17435B22AF997A0075674B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS6FK365RA;
+				INFOPLIST_FILE = simpleHakodateMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyasita.simpleHakodateMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = simpleHakodateMap;
+			};
+			name = Debug;
+		};
+		4F17435C22AF997A0075674B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS6FK365RA;
+				INFOPLIST_FILE = simpleHakodateMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyasita.simpleHakodateMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = simpleHakodateMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F17432722AF99770075674B /* Build configuration list for PBXProject "simpleHakodateMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F17435222AF997A0075674B /* Debug */,
+				4F17435322AF997A0075674B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F17435422AF997A0075674B /* Build configuration list for PBXNativeTarget "simpleHakodateMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F17435522AF997A0075674B /* Debug */,
+				4F17435622AF997A0075674B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F17435722AF997A0075674B /* Build configuration list for PBXNativeTarget "simpleHakodateMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F17435822AF997A0075674B /* Debug */,
+				4F17435922AF997A0075674B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F17435A22AF997A0075674B /* Build configuration list for PBXNativeTarget "simpleHakodateMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F17435B22AF997A0075674B /* Debug */,
+				4F17435C22AF997A0075674B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F17432422AF99770075674B /* Project object */;
+}

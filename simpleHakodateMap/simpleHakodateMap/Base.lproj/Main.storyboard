@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MapController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="MapController" customClass="MapController" customModule="simpleHakodateMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="wdn-Eq-4d4" userLabel="Mymap">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WuJ-2L-STa">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Food" image="Food" width="123" id="hGg-Cc-0C0">
+                                        <connections>
+                                            <action selector="TapPinFoodStore:" destination="BYZ-38-t0r" id="ti2-qM-CPQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Supermarket" image="Foodshop" width="146" id="o5z-tF-RVT">
+                                        <connections>
+                                            <action selector="TapPinSupermarket:" destination="BYZ-38-t0r" id="DuP-5e-KNH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Other" image="Shop" landscapeImage="Shop" width="120" id="GXn-nn-34h">
+                                        <connections>
+                                            <action selector="TapPinOther:" destination="BYZ-38-t0r" id="LDB-Pe-FDz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Om3-B1-m3J">
+                                <rect key="frame" x="233" y="489" width="142" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="trackingnone"/>
+                                <connections>
+                                    <action selector="TrackingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zHB-a8-Pkj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEH-ib-h4L">
+                                <rect key="frame" x="7" y="0.0" width="130" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to Hakodate "/>
+                                <connections>
+                                    <action selector="BackScene:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RMi-58-uJ0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Backbutton" destination="mEH-ib-h4L" id="XrM-26-1cj"/>
+                        <outlet property="FoodStore" destination="hGg-Cc-0C0" id="Ja4-gY-bmb"/>
+                        <outlet property="LocationManager" destination="Om3-B1-m3J" id="ds4-RW-QaH"/>
+                        <outlet property="Mymap" destination="wdn-Eq-4d4" id="lsQ-we-s6r"/>
+                        <outlet property="OtherStore" destination="GXn-nn-34h" id="aze-YW-wIQ"/>
+                        <outlet property="PinViewing" destination="WuJ-2L-STa" id="hX2-4W-gYA"/>
+                        <outlet property="Supermarket" destination="o5z-tF-RVT" id="szm-Bd-ltP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="116.49175412293854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Food" width="30" height="30"/>
+        <image name="Foodshop" width="50" height="50"/>
+        <image name="Shop" width="40" height="40"/>
+        <image name="trackingnone" width="800" height="600"/>
+    </resources>
+</document>
